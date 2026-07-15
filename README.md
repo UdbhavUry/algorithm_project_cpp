@@ -40,10 +40,13 @@ The project also includes runtime analysis for different input sizes.
 
 ## ⚙️ How to Compile & Run
 
-```bash
-g++ 01main.cpp 02sorting.cpp 03searching.cpp 04optimization.cpp -o project
-./project
-```
+### Compile:
+
+g++ 01main.cpp 02sorting.cpp 03searching.cpp 04optimisation.cpp -o project
+
+### Run (Windows PowerShell):
+
+.\project
 
 ---
 
@@ -57,15 +60,34 @@ g++ 01main.cpp 02sorting.cpp 03searching.cpp 04optimization.cpp -o project
 
 ## 📁 Project Structure
 
-```
 algorithms_project_cpp/
-│── main.cpp
-│── sorting.cpp
-│── searching.cpp
-│── optimization.cpp
-│── report.md
+│── 01main.cpp
+│── 02sorting.cpp
+│── 03searching.cpp
+│── 04optimisation.cpp
+│── 05test_data.txt
+│── 06report.md
 │── README.md
-```
 
+---
 
+## 📌 Sample Output
 
+Merge Sort | Size: 100 | Time: 0 microseconds
+Merge Sort | Size: 1000 | Time: 0 microseconds
+Merge Sort | Size: 5000 | Time: 15856 microseconds
+Binary Search Time: 0 microseconds
+Knapsack Result: 9
+Knapsack Time: 0 microseconds
+
+---
+
+## 👨‍💻 Author
+
+Udbhav
+
+---
+
+## 📌 Note
+
+This project is created for academic purposes to demonstrate algorithm design and analysis.
