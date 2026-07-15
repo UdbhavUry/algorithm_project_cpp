@@ -41,7 +41,7 @@ The project also includes runtime analysis for different input sizes.
 ## ⚙️ How to Compile & Run
 
 ```bash
-g++ main.cpp sorting.cpp searching.cpp optimization.cpp -o project
+g++ 01main.cpp 02sorting.cpp 03searching.cpp 04optimization.cpp -o project
 ./project
 ```
 
